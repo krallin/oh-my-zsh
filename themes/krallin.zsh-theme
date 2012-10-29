@@ -5,6 +5,7 @@ eval grey='$FG[237]'
 PROMPT='
 %{$fg_bold[green]%}%n@%M %{$reset_color%}\
 %{$fg_bold[green]%}(%h) %{$reset_color%}\
+%(1j.%{$fg[gren]%}[%{$fg_bold[blue]%}jobs:%{$fg_bold[green]%}%j%{$reset_color%}] %{${reset_color}%}.)\
 $(git_prompt_info)\
 $(virtualenv_prompt_info)\
 
