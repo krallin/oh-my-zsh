@@ -8,7 +8,7 @@ PROMPT='
 $(git_prompt_info)\
 $(virtualenv_prompt_info)\
 
-%{$fg_bold[cyan]%}%~ %{$reset_color%}\
+%{$fg_bold[cyan]%}${PWD/#$HOME/~} %{$reset_color%}\
 %{$fg_bold[red]%}%# %{$reset_color%}'
 
 # Secondary prompt
